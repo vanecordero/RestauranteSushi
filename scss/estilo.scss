@@ -1,0 +1,98 @@
+html{
+	font-size: 13px;
+}
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 10%, rgba(0,0,0,0.4) 100%), url('../images/sushi.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.overlay{
+	 background-color: rgba(0,0,0,0.88);
+}
+
+.item-active:hover img{
+	opacity:  0.3;
+}
+
+/*--------------------------------
+	BOTON SCROLL
+--------------------------------*/
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 50px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 10px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  border-radius: 50%;
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+/*-------------------------------
+		SECCION SABOR
+-------------------------------*/
+
+.sabor {
+  height: 100vh;
+  min-height: 500px;
+  background-image: linear-gradient(to left, rgba(0,0,0,0.97) 14%, rgba(0,0,0,0.2) 100%), url('../images/kitchen.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#sabor-titulo{
+	color: red;
+	font-size: 2.5rem;
+}
+/*---------------------
+		SECION INFO
+----------------------*/
+.card{
+	border: none !important;
+}
+.btn-link{
+	color: red !important;
+}
+/*---------------------------
+		SECCION MAS VENDIDO
+----------------------------*/
+#mejores-platos{
+	height: auto;
+}
+#izq{
+	background-image: url("../images/food.jpg");
+	background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#menu-derecha{
+	background:#b10f0b;
+}
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+  html {
+    font-size: 20px; } 
+
+
+  }
